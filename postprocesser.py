@@ -13,7 +13,6 @@ def export_ctrl_points(ctrl_points, filename, polynomial_degree = 5):
         unique_points = 0
 
         try:
-        
             while (unique_points < len(ctrl_points2)):
                 for i in range(polynomial_degree):
                     file.write("{:9.8f}\t{:9.8f}\t{:9.8f}\n".format(ctrl_points2[unique_points], ctrl_points2[unique_points + 1], 0))
