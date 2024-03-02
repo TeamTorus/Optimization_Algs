@@ -18,7 +18,7 @@ def read_points_file(file_path):
                 continue
             if consider_next:
                 arr.append(line.split(' '))
-                print(line)
+                # print(line)
             else:
                 print("Not considering line: ", line)
                 consider_next = True
